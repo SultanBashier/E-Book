@@ -1,0 +1,381 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\\u0643\u0644\u064A\u0647\\Projects\\\u0627\u0644\u0633\u0644\u064A\u0645\u0647\\bulky\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D9B87E8B-6221-4894-AF81-B2D72EE7B059}|bulkyweb\\bulkyBookweb.csproj|e:\\\u0643\u0644\u064A\u0647\\projects\\\u0627\u0644\u0633\u0644\u064A\u0645\u0647\\bulky\\bulkyweb\\areas\\admin\\views\\user\\rolemanagment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D9B87E8B-6221-4894-AF81-B2D72EE7B059}|bulkyweb\\bulkyBookweb.csproj|solutionrelative:bulkyweb\\areas\\admin\\views\\user\\rolemanagment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{930E3A04-C028-481E-B96F-723BA0DB6BEE}|bulky.DataAccess\\bulkyBook.DataAccess.csproj|e:\\\u0643\u0644\u064A\u0647\\projects\\\u0627\u0644\u0633\u0644\u064A\u0645\u0647\\bulky\\bulky.dataaccess\\datadbcontext\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{930E3A04-C028-481E-B96F-723BA0DB6BEE}|bulky.DataAccess\\bulkyBook.DataAccess.csproj|solutionrelative:bulky.dataaccess\\datadbcontext\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C5FD2CF-AE02-47D3-954F-C940E75BE52C}|bulky.Models\\bulkyBook.Models.csproj|e:\\\u0643\u0644\u064A\u0647\\projects\\\u0627\u0644\u0633\u0644\u064A\u0645\u0647\\bulky\\bulky.models\\productimages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C5FD2CF-AE02-47D3-954F-C940E75BE52C}|bulky.Models\\bulkyBook.Models.csproj|solutionrelative:bulky.models\\productimages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9B87E8B-6221-4894-AF81-B2D72EE7B059}|bulkyweb\\bulkyBookweb.csproj|e:\\\u0643\u0644\u064A\u0647\\projects\\\u0627\u0644\u0633\u0644\u064A\u0645\u0647\\bulky\\bulkyweb\\areas\\admin\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9B87E8B-6221-4894-AF81-B2D72EE7B059}|bulkyweb\\bulkyBookweb.csproj|solutionrelative:bulkyweb\\areas\\admin\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C5FD2CF-AE02-47D3-954F-C940E75BE52C}|bulky.Models\\bulkyBook.Models.csproj|e:\\\u0643\u0644\u064A\u0647\\projects\\\u0627\u0644\u0633\u0644\u064A\u0645\u0647\\bulky\\bulky.models\\shoppingcart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C5FD2CF-AE02-47D3-954F-C940E75BE52C}|bulky.Models\\bulkyBook.Models.csproj|solutionrelative:bulky.models\\shoppingcart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{930E3A04-C028-481E-B96F-723BA0DB6BEE}|bulky.DataAccess\\bulkyBook.DataAccess.csproj|e:\\\u0643\u0644\u064A\u0647\\projects\\\u0627\u0644\u0633\u0644\u064A\u0645\u0647\\bulky\\bulky.dataaccess\\dbinitializer\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{930E3A04-C028-481E-B96F-723BA0DB6BEE}|bulky.DataAccess\\bulkyBook.DataAccess.csproj|solutionrelative:bulky.dataaccess\\dbinitializer\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9B87E8B-6221-4894-AF81-B2D72EE7B059}|bulkyweb\\bulkyBookweb.csproj|e:\\\u0643\u0644\u064A\u0647\\projects\\\u0627\u0644\u0633\u0644\u064A\u0645\u0647\\bulky\\bulkyweb\\areas\\customer\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9B87E8B-6221-4894-AF81-B2D72EE7B059}|bulkyweb\\bulkyBookweb.csproj|solutionrelative:bulkyweb\\areas\\customer\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9B87E8B-6221-4894-AF81-B2D72EE7B059}|bulkyweb\\bulkyBookweb.csproj|e:\\\u0643\u0644\u064A\u0647\\projects\\\u0627\u0644\u0633\u0644\u064A\u0645\u0647\\bulky\\bulkyweb\\areas\\customer\\views\\cart\\summary.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D9B87E8B-6221-4894-AF81-B2D72EE7B059}|bulkyweb\\bulkyBookweb.csproj|solutionrelative:bulkyweb\\areas\\customer\\views\\cart\\summary.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9B87E8B-6221-4894-AF81-B2D72EE7B059}|bulkyweb\\bulkyBookweb.csproj|e:\\\u0643\u0644\u064A\u0647\\projects\\\u0627\u0644\u0633\u0644\u064A\u0645\u0647\\bulky\\bulkyweb\\areas\\customer\\views\\cart\\orderconfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D9B87E8B-6221-4894-AF81-B2D72EE7B059}|bulkyweb\\bulkyBookweb.csproj|solutionrelative:bulkyweb\\areas\\customer\\views\\cart\\orderconfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9B87E8B-6221-4894-AF81-B2D72EE7B059}|bulkyweb\\bulkyBookweb.csproj|e:\\\u0643\u0644\u064A\u0647\\projects\\\u0627\u0644\u0633\u0644\u064A\u0645\u0647\\bulky\\bulkyweb\\areas\\admin\\views\\product\\upsert.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D9B87E8B-6221-4894-AF81-B2D72EE7B059}|bulkyweb\\bulkyBookweb.csproj|solutionrelative:bulkyweb\\areas\\admin\\views\\product\\upsert.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9B87E8B-6221-4894-AF81-B2D72EE7B059}|bulkyweb\\bulkyBookweb.csproj|e:\\\u0643\u0644\u064A\u0647\\projects\\\u0627\u0644\u0633\u0644\u064A\u0645\u0647\\bulky\\bulkyweb\\areas\\admin\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D9B87E8B-6221-4894-AF81-B2D72EE7B059}|bulkyweb\\bulkyBookweb.csproj|solutionrelative:bulkyweb\\areas\\admin\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9B87E8B-6221-4894-AF81-B2D72EE7B059}|bulkyweb\\bulkyBookweb.csproj|e:\\\u0643\u0644\u064A\u0647\\projects\\\u0627\u0644\u0633\u0644\u064A\u0645\u0647\\bulky\\bulkyweb\\areas\\admin\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D9B87E8B-6221-4894-AF81-B2D72EE7B059}|bulkyweb\\bulkyBookweb.csproj|solutionrelative:bulkyweb\\areas\\admin\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9B87E8B-6221-4894-AF81-B2D72EE7B059}|bulkyweb\\bulkyBookweb.csproj|e:\\\u0643\u0644\u064A\u0647\\projects\\\u0627\u0644\u0633\u0644\u064A\u0645\u0647\\bulky\\bulkyweb\\areas\\admin\\views\\order\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D9B87E8B-6221-4894-AF81-B2D72EE7B059}|bulkyweb\\bulkyBookweb.csproj|solutionrelative:bulkyweb\\areas\\admin\\views\\order\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9B87E8B-6221-4894-AF81-B2D72EE7B059}|bulkyweb\\bulkyBookweb.csproj|e:\\\u0643\u0644\u064A\u0647\\projects\\\u0627\u0644\u0633\u0644\u064A\u0645\u0647\\bulky\\bulkyweb\\areas\\admin\\views\\order\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D9B87E8B-6221-4894-AF81-B2D72EE7B059}|bulkyweb\\bulkyBookweb.csproj|solutionrelative:bulkyweb\\areas\\admin\\views\\order\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9B87E8B-6221-4894-AF81-B2D72EE7B059}|bulkyweb\\bulkyBookweb.csproj|e:\\\u0643\u0644\u064A\u0647\\projects\\\u0627\u0644\u0633\u0644\u064A\u0645\u0647\\bulky\\bulkyweb\\areas\\admin\\views\\company\\upsert.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D9B87E8B-6221-4894-AF81-B2D72EE7B059}|bulkyweb\\bulkyBookweb.csproj|solutionrelative:bulkyweb\\areas\\admin\\views\\company\\upsert.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9B87E8B-6221-4894-AF81-B2D72EE7B059}|bulkyweb\\bulkyBookweb.csproj|e:\\\u0643\u0644\u064A\u0647\\projects\\\u0627\u0644\u0633\u0644\u064A\u0645\u0647\\bulky\\bulkyweb\\areas\\admin\\views\\company\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D9B87E8B-6221-4894-AF81-B2D72EE7B059}|bulkyweb\\bulkyBookweb.csproj|solutionrelative:bulkyweb\\areas\\admin\\views\\company\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9B87E8B-6221-4894-AF81-B2D72EE7B059}|bulkyweb\\bulkyBookweb.csproj|e:\\\u0643\u0644\u064A\u0647\\projects\\\u0627\u0644\u0633\u0644\u064A\u0645\u0647\\bulky\\bulkyweb\\areas\\admin\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D9B87E8B-6221-4894-AF81-B2D72EE7B059}|bulkyweb\\bulkyBookweb.csproj|solutionrelative:bulkyweb\\areas\\admin\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9B87E8B-6221-4894-AF81-B2D72EE7B059}|bulkyweb\\bulkyBookweb.csproj|e:\\\u0643\u0644\u064A\u0647\\projects\\\u0627\u0644\u0633\u0644\u064A\u0645\u0647\\bulky\\bulkyweb\\areas\\admin\\views\\category\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D9B87E8B-6221-4894-AF81-B2D72EE7B059}|bulkyweb\\bulkyBookweb.csproj|solutionrelative:bulkyweb\\areas\\admin\\views\\category\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9B87E8B-6221-4894-AF81-B2D72EE7B059}|bulkyweb\\bulkyBookweb.csproj|e:\\\u0643\u0644\u064A\u0647\\projects\\\u0627\u0644\u0633\u0644\u064A\u0645\u0647\\bulky\\bulkyweb\\areas\\admin\\views\\category\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D9B87E8B-6221-4894-AF81-B2D72EE7B059}|bulkyweb\\bulkyBookweb.csproj|solutionrelative:bulkyweb\\areas\\admin\\views\\category\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9B87E8B-6221-4894-AF81-B2D72EE7B059}|bulkyweb\\bulkyBookweb.csproj|e:\\\u0643\u0644\u064A\u0647\\projects\\\u0627\u0644\u0633\u0644\u064A\u0645\u0647\\bulky\\bulkyweb\\areas\\admin\\views\\category\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D9B87E8B-6221-4894-AF81-B2D72EE7B059}|bulkyweb\\bulkyBookweb.csproj|solutionrelative:bulkyweb\\areas\\admin\\views\\category\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9B87E8B-6221-4894-AF81-B2D72EE7B059}|bulkyweb\\bulkyBookweb.csproj|e:\\\u0643\u0644\u064A\u0647\\projects\\\u0627\u0644\u0633\u0644\u064A\u0645\u0647\\bulky\\bulkyweb\\areas\\customer\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9B87E8B-6221-4894-AF81-B2D72EE7B059}|bulkyweb\\bulkyBookweb.csproj|solutionrelative:bulkyweb\\areas\\customer\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9B87E8B-6221-4894-AF81-B2D72EE7B059}|bulkyweb\\bulkyBookweb.csproj|e:\\\u0643\u0644\u064A\u0647\\projects\\\u0627\u0644\u0633\u0644\u064A\u0645\u0647\\bulky\\bulkyweb\\areas\\customer\\views\\home\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D9B87E8B-6221-4894-AF81-B2D72EE7B059}|bulkyweb\\bulkyBookweb.csproj|solutionrelative:bulkyweb\\areas\\customer\\views\\home\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductImages.cs",
+              "DocumentMoniker": "E:\\\u0643\u0644\u064A\u0647\\Projects\\\u0627\u0644\u0633\u0644\u064A\u0645\u0647\\bulky\\bulky.Models\\ProductImages.cs",
+              "RelativeDocumentMoniker": "bulky.Models\\ProductImages.cs",
+              "ToolTip": "E:\\\u0643\u0644\u064A\u0647\\Projects\\\u0627\u0644\u0633\u0644\u064A\u0645\u0647\\bulky\\bulky.Models\\ProductImages.cs",
+              "RelativeToolTip": "bulky.Models\\ProductImages.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-03T22:35:03.017Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DbInitializer.cs",
+              "DocumentMoniker": "E:\\\u0643\u0644\u064A\u0647\\Projects\\\u0627\u0644\u0633\u0644\u064A\u0645\u0647\\bulky\\bulky.DataAccess\\DbInitializer\\DbInitializer.cs",
+              "RelativeDocumentMoniker": "bulky.DataAccess\\DbInitializer\\DbInitializer.cs",
+              "ToolTip": "E:\\\u0643\u0644\u064A\u0647\\Projects\\\u0627\u0644\u0633\u0644\u064A\u0645\u0647\\bulky\\bulky.DataAccess\\DbInitializer\\DbInitializer.cs",
+              "RelativeToolTip": "bulky.DataAccess\\DbInitializer\\DbInitializer.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-03T22:34:30.877Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "E:\\\u0643\u0644\u064A\u0647\\Projects\\\u0627\u0644\u0633\u0644\u064A\u0645\u0647\\bulky\\bulkyweb\\Areas\\Admin\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "bulkyweb\\Areas\\Admin\\Controllers\\ProductController.cs",
+              "ToolTip": "E:\\\u0643\u0644\u064A\u0647\\Projects\\\u0627\u0644\u0633\u0644\u064A\u0645\u0647\\bulky\\bulkyweb\\Areas\\Admin\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "bulkyweb\\Areas\\Admin\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-03T22:34:08.384Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "E:\\\u0643\u0644\u064A\u0647\\Projects\\\u0627\u0644\u0633\u0644\u064A\u0645\u0647\\bulky\\bulkyweb\\Areas\\Customer\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "bulkyweb\\Areas\\Customer\\Controllers\\HomeController.cs",
+              "ToolTip": "E:\\\u0643\u0644\u064A\u0647\\Projects\\\u0627\u0644\u0633\u0644\u064A\u0645\u0647\\bulky\\bulkyweb\\Areas\\Customer\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "bulkyweb\\Areas\\Customer\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-03T22:33:02.179Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "E:\\\u0643\u0644\u064A\u0647\\Projects\\\u0627\u0644\u0633\u0644\u064A\u0645\u0647\\bulky\\bulky.DataAccess\\Datadbcontext\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "bulky.DataAccess\\Datadbcontext\\ApplicationDbContext.cs",
+              "ToolTip": "E:\\\u0643\u0644\u064A\u0647\\Projects\\\u0627\u0644\u0633\u0644\u064A\u0645\u0647\\bulky\\bulky.DataAccess\\Datadbcontext\\ApplicationDbContext.cs",
+              "RelativeToolTip": "bulky.DataAccess\\Datadbcontext\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIEAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-03T22:13:19.699Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RoleManagment.cshtml",
+              "DocumentMoniker": "E:\\\u0643\u0644\u064A\u0647\\Projects\\\u0627\u0644\u0633\u0644\u064A\u0645\u0647\\bulky\\bulkyweb\\Areas\\Admin\\Views\\User\\RoleManagment.cshtml",
+              "RelativeDocumentMoniker": "bulkyweb\\Areas\\Admin\\Views\\User\\RoleManagment.cshtml",
+              "ToolTip": "E:\\\u0643\u0644\u064A\u0647\\Projects\\\u0627\u0644\u0633\u0644\u064A\u0645\u0647\\bulky\\bulkyweb\\Areas\\Admin\\Views\\User\\RoleManagment.cshtml",
+              "RelativeToolTip": "bulkyweb\\Areas\\Admin\\Views\\User\\RoleManagment.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-27T20:12:13.985Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ShoppingCart.cs",
+              "DocumentMoniker": "E:\\\u0643\u0644\u064A\u0647\\Projects\\\u0627\u0644\u0633\u0644\u064A\u0645\u0647\\bulky\\bulky.Models\\ShoppingCart.cs",
+              "RelativeDocumentMoniker": "bulky.Models\\ShoppingCart.cs",
+              "ToolTip": "E:\\\u0643\u0644\u064A\u0647\\Projects\\\u0627\u0644\u0633\u0644\u064A\u0645\u0647\\bulky\\bulky.Models\\ShoppingCart.cs",
+              "RelativeToolTip": "bulky.Models\\ShoppingCart.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-03T22:38:07.54Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Orderconfirmation.cshtml",
+              "DocumentMoniker": "E:\\\u0643\u0644\u064A\u0647\\Projects\\\u0627\u0644\u0633\u0644\u064A\u0645\u0647\\bulky\\bulkyweb\\Areas\\Customer\\Views\\Cart\\Orderconfirmation.cshtml",
+              "RelativeDocumentMoniker": "bulkyweb\\Areas\\Customer\\Views\\Cart\\Orderconfirmation.cshtml",
+              "ToolTip": "E:\\\u0643\u0644\u064A\u0647\\Projects\\\u0627\u0644\u0633\u0644\u064A\u0645\u0647\\bulky\\bulkyweb\\Areas\\Customer\\Views\\Cart\\Orderconfirmation.cshtml",
+              "RelativeToolTip": "bulkyweb\\Areas\\Customer\\Views\\Cart\\Orderconfirmation.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-27T20:14:53.875Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Summary.cshtml",
+              "DocumentMoniker": "E:\\\u0643\u0644\u064A\u0647\\Projects\\\u0627\u0644\u0633\u0644\u064A\u0645\u0647\\bulky\\bulkyweb\\Areas\\Customer\\Views\\Cart\\Summary.cshtml",
+              "RelativeDocumentMoniker": "bulkyweb\\Areas\\Customer\\Views\\Cart\\Summary.cshtml",
+              "ToolTip": "E:\\\u0643\u0644\u064A\u0647\\Projects\\\u0627\u0644\u0633\u0644\u064A\u0645\u0647\\bulky\\bulkyweb\\Areas\\Customer\\Views\\Cart\\Summary.cshtml",
+              "RelativeToolTip": "bulkyweb\\Areas\\Customer\\Views\\Cart\\Summary.cshtml",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAAwHoAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-27T20:13:25.992Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\\u0643\u0644\u064A\u0647\\Projects\\\u0627\u0644\u0633\u0644\u064A\u0645\u0647\\bulky\\bulkyweb\\Areas\\Admin\\Views\\User\\Index.cshtml",
+              "RelativeDocumentMoniker": "bulkyweb\\Areas\\Admin\\Views\\User\\Index.cshtml",
+              "ToolTip": "E:\\\u0643\u0644\u064A\u0647\\Projects\\\u0627\u0644\u0633\u0644\u064A\u0645\u0647\\bulky\\bulkyweb\\Areas\\Admin\\Views\\User\\Index.cshtml",
+              "RelativeToolTip": "bulkyweb\\Areas\\Admin\\Views\\User\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-27T20:12:10.619Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Upsert.cshtml",
+              "DocumentMoniker": "E:\\\u0643\u0644\u064A\u0647\\Projects\\\u0627\u0644\u0633\u0644\u064A\u0645\u0647\\bulky\\bulkyweb\\Areas\\Admin\\Views\\Product\\Upsert.cshtml",
+              "RelativeDocumentMoniker": "bulkyweb\\Areas\\Admin\\Views\\Product\\Upsert.cshtml",
+              "ToolTip": "E:\\\u0643\u0644\u064A\u0647\\Projects\\\u0627\u0644\u0633\u0644\u064A\u0645\u0647\\bulky\\bulkyweb\\Areas\\Admin\\Views\\Product\\Upsert.cshtml",
+              "RelativeToolTip": "bulkyweb\\Areas\\Admin\\Views\\Product\\Upsert.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAF0AAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-27T20:12:01.627Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\\u0643\u0644\u064A\u0647\\Projects\\\u0627\u0644\u0633\u0644\u064A\u0645\u0647\\bulky\\bulkyweb\\Areas\\Admin\\Views\\Product\\Index.cshtml",
+              "RelativeDocumentMoniker": "bulkyweb\\Areas\\Admin\\Views\\Product\\Index.cshtml",
+              "ToolTip": "E:\\\u0643\u0644\u064A\u0647\\Projects\\\u0627\u0644\u0633\u0644\u064A\u0645\u0647\\bulky\\bulkyweb\\Areas\\Admin\\Views\\Product\\Index.cshtml",
+              "RelativeToolTip": "bulkyweb\\Areas\\Admin\\Views\\Product\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-27T20:11:59.277Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Upsert.cshtml",
+              "DocumentMoniker": "E:\\\u0643\u0644\u064A\u0647\\Projects\\\u0627\u0644\u0633\u0644\u064A\u0645\u0647\\bulky\\bulkyweb\\Areas\\Admin\\Views\\Company\\Upsert.cshtml",
+              "RelativeDocumentMoniker": "bulkyweb\\Areas\\Admin\\Views\\Company\\Upsert.cshtml",
+              "ToolTip": "E:\\\u0643\u0644\u064A\u0647\\Projects\\\u0627\u0644\u0633\u0644\u064A\u0645\u0647\\bulky\\bulkyweb\\Areas\\Admin\\Views\\Company\\Upsert.cshtml",
+              "RelativeToolTip": "bulkyweb\\Areas\\Admin\\Views\\Company\\Upsert.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-27T20:11:25.204Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\\u0643\u0644\u064A\u0647\\Projects\\\u0627\u0644\u0633\u0644\u064A\u0645\u0647\\bulky\\bulkyweb\\Areas\\Admin\\Views\\Company\\Index.cshtml",
+              "RelativeDocumentMoniker": "bulkyweb\\Areas\\Admin\\Views\\Company\\Index.cshtml",
+              "ToolTip": "E:\\\u0643\u0644\u064A\u0647\\Projects\\\u0627\u0644\u0633\u0644\u064A\u0645\u0647\\bulky\\bulkyweb\\Areas\\Admin\\Views\\Company\\Index.cshtml",
+              "RelativeToolTip": "bulkyweb\\Areas\\Admin\\Views\\Company\\Index.cshtml",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-27T20:11:22.231Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\\u0643\u0644\u064A\u0647\\Projects\\\u0627\u0644\u0633\u0644\u064A\u0645\u0647\\bulky\\bulkyweb\\Areas\\Admin\\Views\\Category\\Index.cshtml",
+              "RelativeDocumentMoniker": "bulkyweb\\Areas\\Admin\\Views\\Category\\Index.cshtml",
+              "ToolTip": "E:\\\u0643\u0644\u064A\u0647\\Projects\\\u0627\u0644\u0633\u0644\u064A\u0645\u0647\\bulky\\bulkyweb\\Areas\\Admin\\Views\\Category\\Index.cshtml",
+              "RelativeToolTip": "bulkyweb\\Areas\\Admin\\Views\\Category\\Index.cshtml",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAAAkAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-27T20:11:15.279Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "E:\\\u0643\u0644\u064A\u0647\\Projects\\\u0627\u0644\u0633\u0644\u064A\u0645\u0647\\bulky\\bulkyweb\\Areas\\Admin\\Views\\Category\\Edit.cshtml",
+              "RelativeDocumentMoniker": "bulkyweb\\Areas\\Admin\\Views\\Category\\Edit.cshtml",
+              "ToolTip": "E:\\\u0643\u0644\u064A\u0647\\Projects\\\u0627\u0644\u0633\u0644\u064A\u0645\u0647\\bulky\\bulkyweb\\Areas\\Admin\\Views\\Category\\Edit.cshtml",
+              "RelativeToolTip": "bulkyweb\\Areas\\Admin\\Views\\Category\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-27T20:11:13.945Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "E:\\\u0643\u0644\u064A\u0647\\Projects\\\u0627\u0644\u0633\u0644\u064A\u0645\u0647\\bulky\\bulkyweb\\Areas\\Admin\\Views\\Category\\Delete.cshtml",
+              "RelativeDocumentMoniker": "bulkyweb\\Areas\\Admin\\Views\\Category\\Delete.cshtml",
+              "ToolTip": "E:\\\u0643\u0644\u064A\u0647\\Projects\\\u0627\u0644\u0633\u0644\u064A\u0645\u0647\\bulky\\bulkyweb\\Areas\\Admin\\Views\\Category\\Delete.cshtml",
+              "RelativeToolTip": "bulkyweb\\Areas\\Admin\\Views\\Category\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-27T20:11:10.008Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "E:\\\u0643\u0644\u064A\u0647\\Projects\\\u0627\u0644\u0633\u0644\u064A\u0645\u0647\\bulky\\bulkyweb\\Areas\\Admin\\Views\\Category\\Create.cshtml",
+              "RelativeDocumentMoniker": "bulkyweb\\Areas\\Admin\\Views\\Category\\Create.cshtml",
+              "ToolTip": "E:\\\u0643\u0644\u064A\u0647\\Projects\\\u0627\u0644\u0633\u0644\u064A\u0645\u0647\\bulky\\bulkyweb\\Areas\\Admin\\Views\\Category\\Create.cshtml",
+              "RelativeToolTip": "bulkyweb\\Areas\\Admin\\Views\\Category\\Create.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-27T20:11:04.29Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "E:\\\u0643\u0644\u064A\u0647\\Projects\\\u0627\u0644\u0633\u0644\u064A\u0645\u0647\\bulky\\bulkyweb\\Areas\\Admin\\Views\\Order\\Details.cshtml",
+              "RelativeDocumentMoniker": "bulkyweb\\Areas\\Admin\\Views\\Order\\Details.cshtml",
+              "ToolTip": "E:\\\u0643\u0644\u064A\u0647\\Projects\\\u0627\u0644\u0633\u0644\u064A\u0645\u0647\\bulky\\bulkyweb\\Areas\\Admin\\Views\\Order\\Details.cshtml",
+              "RelativeToolTip": "bulkyweb\\Areas\\Admin\\Views\\Order\\Details.cshtml",
+              "ViewState": "AgIAABIBAAAAAAAAAAAAwCsBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-27T20:10:05.141Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "E:\\\u0643\u0644\u064A\u0647\\Projects\\\u0627\u0644\u0633\u0644\u064A\u0645\u0647\\bulky\\bulkyweb\\Areas\\Customer\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "bulkyweb\\Areas\\Customer\\Controllers\\CartController.cs",
+              "ToolTip": "E:\\\u0643\u0644\u064A\u0647\\Projects\\\u0627\u0644\u0633\u0644\u064A\u0645\u0647\\bulky\\bulkyweb\\Areas\\Customer\\Controllers\\CartController.cs",
+              "RelativeToolTip": "bulkyweb\\Areas\\Customer\\Controllers\\CartController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-27T20:09:48.852Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\\u0643\u0644\u064A\u0647\\Projects\\\u0627\u0644\u0633\u0644\u064A\u0645\u0647\\bulky\\bulkyweb\\Areas\\Admin\\Views\\Order\\Index.cshtml",
+              "RelativeDocumentMoniker": "bulkyweb\\Areas\\Admin\\Views\\Order\\Index.cshtml",
+              "ToolTip": "E:\\\u0643\u0644\u064A\u0647\\Projects\\\u0627\u0644\u0633\u0644\u064A\u0645\u0647\\bulky\\bulkyweb\\Areas\\Admin\\Views\\Order\\Index.cshtml",
+              "RelativeToolTip": "bulkyweb\\Areas\\Admin\\Views\\Order\\Index.cshtml",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAAwDkAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-27T20:04:41.809Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "E:\\\u0643\u0644\u064A\u0647\\Projects\\\u0627\u0644\u0633\u0644\u064A\u0645\u0647\\bulky\\bulkyweb\\Areas\\Customer\\Views\\Home\\Details.cshtml",
+              "RelativeDocumentMoniker": "bulkyweb\\Areas\\Customer\\Views\\Home\\Details.cshtml",
+              "ToolTip": "E:\\\u0643\u0644\u064A\u0647\\Projects\\\u0627\u0644\u0633\u0644\u064A\u0645\u0647\\bulky\\bulkyweb\\Areas\\Customer\\Views\\Home\\Details.cshtml",
+              "RelativeToolTip": "bulkyweb\\Areas\\Customer\\Views\\Home\\Details.cshtml",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-27T20:03:51.957Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
