@@ -1,0 +1,64 @@
+﻿@model Category
+
+<!-- Main container card for the Update Category form -->
+<div class="card shadow border-0 mt-4">
+    <!-- Card header with background and title -->
+    <div class="card-header bg-secondary bg-gradient ml-0 py-3">
+        <div class="row">
+            <div class="col-12 text-center">
+                <h2 class="text-white py-2">Update Category</h2>
+            </div>
+        </div>
+    </div>
+
+    <!-- Card body containing the form -->
+    <div class="card-body p-4">
+        <!-- Form for submitting updated category data -->
+        <form method="post">
+            <!-- Hidden field for Category Id (required for model binding) -->
+            <input asp-for="Id" hidden />
+
+            <div class="border p-3 mt-4">
+                <!-- Optional: Model validation summary (currently commented out) -->
+                @*<div asp-validation-summary="ModelOnly"></div>*@
+
+                <!-- Input field for Name -->
+                <div class="form-floating py-2 col-12">
+                    <input asp-for="Name" class="form-control border-0 shadow" />
+                    <label asp-for="Name" class="ms-2"></label>
+                    <span asp-validation-for="Name" class="text-danger"></span>
+                </div>
+
+                <!-- Input field for Display Order -->
+                <div class="form-floating py-2 col-12">
+                    <input asp-for="Displayorder" class="form-control border-0 shadow" />
+                    <label asp-for="Displayorder" class="ms-2"></label>
+                    <span asp-validation-for="Displayorder" class="text-danger"></span>
+                </div>
+
+                <!-- Action buttons -->
+                <div class="row mt-3">
+                    <!-- Submit button to save updates -->
+                    <div class="col-6 col-md-3">
+                        <button type="submit" class="btn btn-primary form-control">Update</button>
+                    </div>
+
+                    <!-- Button to go back to the category list -->
+                    <div class="col-6 col-md-3">
+                        <a asp-controller="Category" asp-action="Index" class="btn btn-secondary border form-control">
+                            Back to List
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </form>
+    </div>
+</div>
+
+<!-- Include client-side validation scripts -->
+@section Scripts {
+    @{
+        <partial name="_ValidationScriptsPartial" />
+    }
+}

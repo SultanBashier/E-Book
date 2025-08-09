@@ -1,0 +1,52 @@
+﻿<!-- Main container for the Product List section -->
+<div class="card shadow border-0 my-4">
+
+    <!-- Card header with title -->
+    <div class="card-header bg-secondary bg-gradient ml-0 py-3">
+        <div class="row">
+            <div class="col-12 text-center">
+                <h2 class="text-white py-2">Product List</h2>
+            </div>
+        </div>
+    </div>
+
+    <!-- Card body where the content is displayed -->
+    <div class="card-body p-4">
+
+        <!-- Top row for action buttons -->
+        <div class="row pb-3">
+            <div class="col-6">
+                <!-- Empty column (can be used for filters or info in future) -->
+            </div>
+            <div class="col-6 text-end">
+                <!-- Button to create a new product -->
+                <a asp-controller="Product" asp-action="Upsert" class="btn btn-primary">
+                    <i class="bi bi-plus-circle"></i> Create New Product
+                </a>
+            </div>
+        </div>
+
+        <!-- Table to display list of products -->
+        <table id="tblData" class="table table-bordered table-striped" style="width:100%">
+            <thead>
+                <tr>
+                    <th>Title</th>          <!-- Product title -->
+                    <th>ISBN</th>           <!-- International Standard Book Number -->
+                    <th>Price</th>          <!-- Product price -->
+                    <th>Author</th>         <!-- Author name -->
+                    <th>Category</th>       <!-- Product category -->
+                    <th>Setting List</th>   <!-- Column for edit/delete/view buttons -->
+                </tr>
+            </thead>
+            <!-- Table body will be dynamically loaded via JavaScript (AJAX) -->
+        </table>
+
+    </div>
+</div>
+
+<!-- Section to include page-specific scripts -->
+@section Scripts
+{
+    <!-- External JavaScript file that loads the product list into the table -->
+    <script src="~/js/product.js?v=1.1"></script>
+}

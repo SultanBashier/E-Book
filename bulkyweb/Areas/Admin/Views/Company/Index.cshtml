@@ -1,0 +1,53 @@
+﻿<!-- Main card container for the Company list page -->
+<div class="card shadow border-0 my-4">
+
+    <!-- Card header with background color and title -->
+    <div class="card-header bg-secondary bg-gradient ml-0 py-3">
+        <div class="row">
+            <div class="col-12 text-center">
+                <h2 class="text-white py-2">Company List</h2>
+            </div>
+        </div>
+    </div>
+
+    <!-- Card body where the content (table + button) is displayed -->
+    <div class="card-body p-4">
+
+        <!-- Top row with "Create New Company" button aligned to the right -->
+        <div class="row pb-3">
+            <div class="col-6">
+                <!-- Optional: space for filters or search in the future -->
+            </div>
+            <div class="col-6 text-end">
+                <!-- Button to navigate to the Upsert (Create/Edit) Company view -->
+                <a asp-controller="Company" asp-action="Upsert" class="btn btn-primary">
+                    <i class="bi bi-plus-circle"></i> Create New Company
+                </a>
+            </div>
+        </div>
+
+        <!-- Data table to display companies (loaded via JavaScript / AJAX) -->
+        <table id="tblData" class="table table-bordered table-striped" style="width:100%">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Address</th>
+                    <th>City</th>
+                    <th>State</th>
+                    <th>Phone Number</th>
+                    <th>Setting List</th> <!-- Column for action buttons (Edit/Delete) -->
+                </tr>
+            </thead>
+            <!-- Table body will be populated dynamically via DataTables (AJAX) -->
+        </table>
+
+    </div>
+</div>
+
+<!-- Scripts section for loading client-side logic -->
+@section Scripts
+{
+    <!-- Custom JavaScript for handling table population and actions -->
+    @* Load client-side validation scripts *@
+    <script src="~/js/company.js"></script>
+}

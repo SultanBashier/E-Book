@@ -1,0 +1,25 @@
+﻿@model int 
+<!-- Represents the Order ID passed from the controller -->
+
+<!-- Main container for layout -->
+<div class="container row pt-4">
+
+    <!-- Section to display the confirmation message -->
+    <div class="col-12 text-center">
+        <!-- Header showing order success -->
+        <h1 class="text-bg-primary text-center">Order Placed Successfully!</h1>
+
+        <!-- Display the Order Number -->
+        Your Order Number Is: @Model
+        <br /><br />
+
+        <!-- Placeholder image for success -->
+        <img src="~/images/download.jpeg" width="65%" />
+    </div>
+
+    <!-- Additional confirmation message below the image -->
+    <div class="col-12 text-center" style="color:maroon">
+        <br />
+        Your Order Has Been Placed Successfully!
+    </div>
+</div>

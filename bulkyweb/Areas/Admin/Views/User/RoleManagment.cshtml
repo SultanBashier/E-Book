@@ -1,0 +1,87 @@
+﻿@model RoleManagmentVM
+
+<!-- Main card container for role management UI -->
+<div class="card shadow border-0 mt-4">
+    <!-- Card header with title -->
+    <div class="card-header bg-secondary bg-gradient ml-0 py-3">
+        <div class="row">
+            <div class="col-12 text-center">
+                <h2 class="text-white py-2">Manage User Role</h2>
+            </div>
+        </div>
+    </div>
+
+    <!-- Card body containing the form -->
+    <div class="card-body p-4">
+        <form method="post" class="row">
+            <!-- Hidden input for user ID -->
+            <input asp-for="apllicationUser.Id" hidden />
+
+            <div class="border p-3">
+                @* Display user name (read-only) *@
+                <div class="form-floating py-2 col-12">
+                    <input asp-for="apllicationUser.Name" readonly class="form-control border-0 shadow" />
+                    <label asp-for="apllicationUser.Name" class="ms-2"></label>
+                </div>
+
+                @* Dropdown to select role from available roles *@
+
+                <div class="form-floating py-2 col-12">
+                    <select asp-for="apllicationUser.Role" asp-items="@Model.RoleList" class="form-select"></select>
+                </div>
+
+                @* By default, the company dropdown is hidden *@
+                @{
+                    var companyVisible = "display:none;";
+                }
+
+                @* Show company dropdown only if selected role is 'Company' *@
+                @if (Model.apllicationUser.Role == SD.Role_Company)
+                {
+                    companyVisible = "display:block;";
+                }
+
+                @* Dropdown to select company (only appears if role is 'Company') *@
+                <div class="form-floating py-2 col-12">
+                    <select asp-for="apllicationUser.CompanyId" style="@companyVisible" asp-items="@Model.CompanyList" class="form-select">
+                    </select>
+                </div>
+
+                <!-- Buttons for submit and back -->
+                <div class="row pt-2">
+                    <div class="col-6 col-md-3">
+                        <button type="submit" class="btn btn-primary form-control">Update Role</button>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <a asp-action="Index" class="btn btn-outline-primary border form-control">
+                            Back to List
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+<!-- Scripts section for form behavior -->
+@section Scripts {
+    <!-- Validation scripts for client-side validation -->
+    @{
+        <partial name="_ValidationScriptsPartial" />
+    }
+
+    <!-- jQuery script to show/hide company dropdown based on role selection -->
+    <script>
+        $(document).ready(function () {
+            $('#apllicationUser_Role').change(function () {
+                var selection = $('#apllicationUser_Role Option:Selected').text();
+                if (selection == 'Company') {
+                    $('#apllicationUser_CompanyId').show();
+                }
+                else {
+                    $('#apllicationUser_CompanyId').hide();
+                }
+            })
+        })
+    </script>
+}

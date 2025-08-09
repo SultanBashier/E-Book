@@ -1,0 +1,112 @@
+﻿@model Company
+
+<!-- Main container card for the Create/Update Company form -->
+<div class="card shadow border-0 my-4">
+
+    <!-- Card header with dynamic title depending on whether we're updating or creating -->
+    <div class="card-header bg-secondary bg-gradient ml-0 py-3">
+        <div class="row">
+            <div class="col-12 text-center">
+                <h2 class="text-white py-2">@(Model.Id != 0 ? "Update" : "Create") Company</h2>
+            </div>
+        </div>
+    </div>
+
+    <!-- Card body containing the form -->
+    <div class="card-body p-4">
+        <!-- Form for submitting company data -->
+        <form method="post" class="row" enctype="multipart/form-data">
+            <!-- Hidden field for Id (used for update scenarios) -->
+            <input asp-for="Id" hidden />
+
+            <div class="row">
+                <div class="col-12">
+                    <div class="border p-3">
+
+                        <!-- Name input -->
+                        <div class="form-floating py-2 col-12">
+                            <input asp-for="Name" class="form-control border-0 shadow" />
+                            <label asp-for="Name" class="ms-2"></label>
+                            <span asp-validation-for="Name" class="text-danger"></span>
+                        </div>
+
+                        <!-- Phone Number input -->
+                        <div class="form-floating py-2 col-12">
+                            <input asp-for="PhoneNumber" class="form-control border-0 shadow" />
+                            <label asp-for="PhoneNumber" class="ms-2"></label>
+                            <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+                        </div>
+
+                        <!-- Street Address input -->
+                        <div class="form-floating py-2 col-12">
+                            <input asp-for="StreetAddress" class="form-control border-0 shadow" />
+                            <label asp-for="StreetAddress" class="ms-2"></label>
+                            <span asp-validation-for="StreetAddress" class="text-danger"></span>
+                        </div>
+
+                        <!-- City input -->
+                        <div class="form-floating py-2 col-12">
+                            <input asp-for="City" class="form-control border-0 shadow" />
+                            <label asp-for="City" class="ms-2"></label>
+                            <span asp-validation-for="City" class="text-danger"></span>
+                        </div>
+
+                        <!-- State input -->
+                        <div class="form-floating py-2 col-12">
+                            <input asp-for="State" class="form-control border-0 shadow" />
+                            <label asp-for="State" class="ms-2"></label>
+                            <span asp-validation-for="State" class="text-danger"></span>
+                        </div>
+
+                        <!-- Postal Code input -->
+                        <div class="form-floating py-2 col-12">
+                            <input asp-for="PostalCode" class="form-control border-0 shadow" />
+                            <label asp-for="PostalCode" class="ms-2"></label>
+                            <span asp-validation-for="PostalCode" class="text-danger"></span>
+                        </div>
+
+                        <!-- Form action buttons -->
+                        <div class="row pt-2">
+                            <div class="col-6 col-md-3">
+                                @* Conditionally show Create or Update button based on Id *@
+                                @if (Model.Id != 0)
+                                {
+                                    <button type="submit" class="btn btn-primary form-control">Update</button>
+                                }
+                                else
+                                {
+                                    <button type="submit" class="btn btn-primary form-control">Create</button>
+                                }
+                            </div>
+
+                            <!-- Button to return to the Company list -->
+                            <div class="col-6 col-md-3">
+                                <a asp-controller="Company" asp-action="Index" class="btn btn-outline-primary border form-control">
+                                    Back to List
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+<!-- Scripts section for validation and rich text editor (TinyMCE) -->
+@section Scripts {
+    <script>
+        // Initialize TinyMCE rich text editor (if used)
+        tinymce.init({
+            selector: 'textarea',
+            plugins: 'anchor autolink charmap codesample emoticons lists table visualblocks wordcount',
+            toolbar: 'undo redo | blocks fontfamily fontsize | bold italic underline strikethrough | align lineheight | numlist bullist indent outdent | emoticons charmap',
+        });
+    </script>
+
+    @* Load client-side validation scripts *@
+    @{
+        <partial name="_ValidationScriptsPartial" />
+    }
+}

@@ -1,0 +1,71 @@
+﻿@model List<Category>
+
+<!-- Main container card for displaying the category list -->
+<div class="card shadow border-0 mt-4">
+
+    <!-- Card header with title -->
+    <div class="card-header bg-secondary bg-gradient ml-0 py-3">
+        <div class="row">
+            <div class="col-12 text-center">
+                <h2 class="text-white py-2">Category List</h2>
+            </div>
+        </div>
+    </div>
+
+    <!-- Card body containing the table and buttons -->
+    <div class="card-body p-4">
+
+        <!-- Row with Create button aligned to the right -->
+        <div class="row pb-3">
+            <div class="col-6">
+                <!-- (Optional left-side content placeholder) -->
+            </div>
+            <div class="col-6 text-end">
+                <!-- Button to navigate to the Create Category view -->
+                <a asp-controller="Category" asp-action="Create" class="btn btn-primary">
+                    <i class="bi bi-plus-circle"></i> Create New Category
+                </a>
+            </div>
+        </div>
+
+        <!-- Table displaying the list of categories -->
+        <table class="table table-bordered table-striped">
+            <thead>
+                <tr>
+                    <th>Category Name</th>
+                    <th>Display Order</th>
+                    <th></th> <!-- Actions column -->
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Loop through categories ordered by DisplayOrder -->
+                @foreach (var obj in Model.OrderBy(u => u.Displayorder))
+                {
+                    <tr>
+                        <!-- Display category name -->
+                        <td>@obj.Name</td>
+
+                        <!-- Display display order -->
+                        <td>@obj.Displayorder</td>
+
+                        <!-- Action buttons (Edit / Delete) -->
+                        <td>
+                            <div class="w-75 btn-group" role="group">
+                                <!-- Edit button -->
+                                <a asp-controller="Category" asp-action="Edit" asp-route-id="@obj.Id" class="btn btn-primary mx-2">
+                                    <i class="bi bi-pencil-square"></i> Edit
+                                </a>
+
+                                <!-- Delete button -->
+                                <a asp-controller="Category" asp-action="Delete" asp-route-id="@obj.Id" class="btn btn-danger mx-2">
+                                    <i class="bi bi-trash-fill"></i> Delete
+                                </a>
+                            </div>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+
+    </div>
+</div>

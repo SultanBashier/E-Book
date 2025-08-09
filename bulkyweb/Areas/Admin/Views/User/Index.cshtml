@@ -1,0 +1,41 @@
+﻿<!-- Main container for the user list card -->
+<div class="card shadow border-0 my-4">
+
+    <!-- Header section with title -->
+    <div class="card-header bg-secondary bg-gradient ml-0 py-3">
+        <div class="row">
+            <div class="col-12 text-center">
+                <!-- Title of the page -->
+                <h2 class="text-white py-2">User List</h2>
+            </div>
+        </div>
+    </div>
+
+    <!-- Card body containing the table -->
+    <div class="card-body p-4">
+
+        <!-- Table to display user data using DataTables or JavaScript rendering -->
+        <table id="tblData" class="table table-bordered table-striped" style="width:100%">
+            <thead>
+                <tr>
+                    <!-- Column headers for the user information -->
+                    <th>Name</th>        <!-- User full name -->
+                    <th>Email</th>       <!-- Email address -->
+                    <th>Phone</th>       <!-- Phone number -->
+                    <th>Company</th>     <!-- Associated company -->
+                    <th>Role</th>        <!-- Assigned role (e.g., Admin, User) -->
+                    <th>Setting List</th> <!-- Actions (Edit, Delete, etc.) -->
+                </tr>
+            </thead>
+            <!-- Table body is expected to be populated via JavaScript (AJAX) -->
+        </table>
+
+    </div>
+</div>
+
+<!-- Section to load JavaScript functionality -->
+@section Scripts
+{
+    <!-- Load user.js to handle dynamic table data (DataTables, AJAX calls, etc.) -->
+    <script src="~/js/user.js?v=1.1"></script>
+}

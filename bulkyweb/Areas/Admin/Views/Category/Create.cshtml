@@ -1,0 +1,65 @@
+﻿@model Category
+
+<!-- Main container card for the Create Category form -->
+<div class="card shadow border-0 mt-4">
+    <!-- Card header with background and centered title -->
+    <div class="card-header bg-secondary bg-gradient ml-0 py-3">
+        <div class="row">
+            <div class="col-12 text-center">
+                <h2 class="text-white py-2">Create Category</h2>
+            </div>
+        </div>
+    </div>
+
+    <!-- Card body containing the form -->
+    <div class="card-body p-4">
+        <!-- Form to submit the new category to the server -->
+        <form method="post" class="row">
+            <div class="border p-3">
+
+                <!-- Form group for category Name -->
+                <div class="form-floating py-2 col-12">
+                    <!-- Input for Name -->
+                    <input asp-for="Name" class="form-control border-0 shadow" />
+                    <!-- Label for Name -->
+                    <label asp-for="Name" class="ms-2"></label>
+                    <!-- Validation message for Name -->
+                    <span asp-validation-for="Name" class="text-danger"></span>
+                </div>
+
+                <!-- Form group for Display Order -->
+                <div class="form-floating py-2 col-12">
+                    <!-- Input for Displayorder -->
+                    <input asp-for="Displayorder" class="form-control border-0 shadow" />
+                    <!-- Label for Displayorder -->
+                    <label asp-for="Displayorder" class="ms-2"></label>
+                    <!-- Validation message for Displayorder -->
+                    <span asp-validation-for="Displayorder" class="text-danger"></span>
+                </div>
+
+                <!-- Action buttons row -->
+                <div class="row pt-2">
+                    <!-- Submit button -->
+                    <div class="col-6 col-md-3">
+                        <button type="submit" class="btn btn-primary form-control">Create</button>
+                    </div>
+
+                    <!-- Back to list button -->
+                    <div class="col-6 col-md-3">
+                        <a asp-controller="Category" asp-action="Index" class="btn btn-outline-primary border form-control">
+                            Back to List
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </form>
+    </div>
+</div>
+
+<!-- Section to include validation scripts -->
+@section Scripts {
+    @{
+        <partial name="_ValidationScriptsPartial" />
+    }
+}
