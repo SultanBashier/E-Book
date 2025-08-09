@@ -1,0 +1,12 @@
+C:\Users\sulta\Desktop\bulky\bulky.Utility\bin\Debug\net8.0\bulky.Utility.deps.json
+C:\Users\sulta\Desktop\bulky\bulky.Utility\bin\Debug\net8.0\bulky.Utility.dll
+C:\Users\sulta\Desktop\bulky\bulky.Utility\bin\Debug\net8.0\bulky.Utility.pdb
+C:\Users\sulta\Desktop\bulky\bulky.Utility\obj\Debug\net8.0\bulky.Utility.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sulta\Desktop\bulky\bulky.Utility\obj\Debug\net8.0\bulky.Utility.AssemblyInfoInputs.cache
+C:\Users\sulta\Desktop\bulky\bulky.Utility\obj\Debug\net8.0\bulky.Utility.AssemblyInfo.cs
+C:\Users\sulta\Desktop\bulky\bulky.Utility\obj\Debug\net8.0\bulky.Utility.csproj.CoreCompileInputs.cache
+C:\Users\sulta\Desktop\bulky\bulky.Utility\obj\Debug\net8.0\bulky.Utility.sourcelink.json
+C:\Users\sulta\Desktop\bulky\bulky.Utility\obj\Debug\net8.0\bulky.Utility.dll
+C:\Users\sulta\Desktop\bulky\bulky.Utility\obj\Debug\net8.0\refint\bulky.Utility.dll
+C:\Users\sulta\Desktop\bulky\bulky.Utility\obj\Debug\net8.0\bulky.Utility.pdb
+C:\Users\sulta\Desktop\bulky\bulky.Utility\obj\Debug\net8.0\ref\bulky.Utility.dll
